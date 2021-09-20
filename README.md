@@ -1,2 +1,8 @@
-# motion-propulsion
-The First Group Project from Propulsion Academy
+Motion Backend.
+
+Team Members - Assignments:
+
+- Linard Furck  (Backend)
+- Valentina Sulbaran (Backend)
+- Jonas Bienz (Frontend)
+- Olivia Posch (Frontend)

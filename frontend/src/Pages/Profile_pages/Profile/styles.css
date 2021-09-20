@@ -1,0 +1,30 @@
+.profile-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+
+  width: 100%;
+}
+.profile-grid_column {
+  /* gutter size */
+  background-clip: padding-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-grid_column:first-child {
+  align-items: flex-end;
+  padding-right: 30px;
+}
+
+.profile-grid_column:last-child {
+  align-items: flex-start;
+  padding-left: 30px;
+}
+/* Style your items */
+.profile-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 30px;
+}
